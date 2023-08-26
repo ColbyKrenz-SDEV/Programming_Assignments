@@ -1,7 +1,7 @@
 /*
 Programmer:	Colby Krenz
 Date: 08/25/2023
-Program Name: M01 Programming Assignment 1: Chapter 6: Assignment 6.31
+Program Name: M01 Programming Assignment 2: Chapter 6: Assignment 6.31
 Purpose: Prompt the user to enter a credit card number as a long integer and display if it is valid or invalid
 */
 
