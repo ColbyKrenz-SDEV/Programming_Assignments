@@ -1,0 +1,3 @@
+({"These are matching pairs"});
+[(("Here are some non-matching pairs")]];
+(["And some additional non-matching pairs"[]});
