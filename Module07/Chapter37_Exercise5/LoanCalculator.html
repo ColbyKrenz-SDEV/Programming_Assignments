@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Programmer: Colby Krenz
+Date: 10/03/2023
+Program Name: M07 Programming Assignment 1: Chapter 37: Exercise 37.5
+Purpose: Write an HTML form that prompts user to enter loan amount, interest rate and number of years.
+Create a servlet that is invoked by a submit button to compute monthly + total loan payments.
+-->
+<html>
+    <head>
+        <title>Chapter 37.5: Calculate Loan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Compute Loan Payment</h3>
+
+        <form action = "GetParameters"
+              method = "get">
+            <!-- text fields for user input -->
+            <p><label>Loan Amount: </label>
+                <input type = "text" name = "loanAmount" size = "20" /></p>
+            
+            <p><label>Annual Interest Rate: </label>
+                <input type = "text" name = "annualInterestRate" size = "20" /></p>
+            
+            <p><label>Number of Years: </label>
+                <input type = "text" name = "numberOfYears" size = "10" /></p>
+
+            <!-- create the submit and reset buttons -->
+            <p><input type = "submit" value = "Submit" />
+                <input type = "reset" value = "Reset" /></p>
+        </form>
+    </body>
+</html>
